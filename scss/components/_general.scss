@@ -1,0 +1,38 @@
+h1 {
+	text-align: center;
+}
+
+main {
+	background-color: $color_1;
+	margin: 0px;
+}
+
+footer {
+	background-color: $primario;
+	color: $color_1;
+	text-align: center;
+	align-self: flex-end;
+	width: 100%;
+	height: 50px;
+}
+
+body {
+	font-family: 'Nunito', sans-serif;
+	background-color: $color_1;
+}
+
+.parrafos {
+	text-align: center;
+	margin: 15px;
+}
+
+.pasos {
+	text-align: center;
+}
+
+.proyecto {
+	color: $color_1;
+	text-align: center;
+	padding: 50px;
+	background-color: $primario;
+}
