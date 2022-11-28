@@ -99,3 +99,66 @@
 		}
 	}
 }
+@media (max-width:780px) {
+	.cuadros1 {
+		display: flex;
+		flex-direction: column;
+		.cuadros {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			margin: 5%;
+			color: $color_1;
+			background-color: $primario;
+			border-radius: 10px;
+			&:hover{
+				transform: scale(1.02);
+				transition: 0.4s;
+				background-color: $color_2;
+			}
+		
+		
+			h3 {
+				display: flex;
+				justify-content: center;
+				margin: 10px;
+			}
+			p {
+				justify-content: center;
+				margin: 10%;
+			}
+		}
+	
+	}
+	.parrafos {
+		text-align: center;
+		width: auto;
+		margin: 0;
+		color: $color_1;
+		background-color: $primario;
+		padding: 5%;
+		border-radius: 0px;
+		font-size: 1rem;
+	}
+	.parrafos1 {
+		text-align: center;
+		width: auto;
+		margin: 5%;
+		color: $color_1;
+		background-color: $primario;
+		padding: 50px;
+		border-radius: 10px;
+		font-size: 1rem;
+	}
+	.parrafosp {
+		text-align: center;
+		width: auto;
+		margin: 5%;
+		color: $color_1;
+		background-color: $primario;
+		border-radius: 10px;
+		font-size: 1rem;
+	}
+
+}

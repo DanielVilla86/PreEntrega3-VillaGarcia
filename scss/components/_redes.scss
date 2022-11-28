@@ -24,14 +24,14 @@
 	}
 
 	.facebook {
-		background-color: $facebook;
+		background-color: map-get($map: $color, $key: facebook);
 	}
 
 	.twitter {
-		background-color: $twitter;
+		background-color: map-get($map: $color, $key: twitter);
 	}
 
 	.instagram {
-		background-color: $instagram;
+		background-color: map-get($map: $color, $key: instagram);
 	}
 }

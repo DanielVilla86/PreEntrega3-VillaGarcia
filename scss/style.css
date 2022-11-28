@@ -5,6 +5,105 @@
   box-sizing: border-box;
 }
 
+h1 {
+  text-align: center;
+}
+
+main {
+  background-color: white;
+  margin: 0px;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  background-color: #474E68;
+  color: white;
+  text-align: center;
+  align-self: flex-end;
+  width: 100%;
+  height: 50px;
+  margin-top: auto;
+}
+
+.parrafos {
+  text-align: center;
+  width: auto;
+  margin: 5%;
+  color: white;
+  border-radius: 10px;
+  font-size: 2rem;
+}
+
+.parrafos1 {
+  text-align: center;
+  width: auto;
+  margin: 5%;
+  color: white;
+  background-color: #474E68;
+  padding: 50px;
+  border-radius: 10px;
+  font-size: 2rem;
+}
+
+.parrafosp {
+  text-align: center;
+  width: auto;
+  margin: 5%;
+  color: white;
+  border-radius: 10px;
+  font-size: 2vh;
+}
+
+.pasos {
+  text-align: center;
+}
+
+.cuadros {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  margin: 5%;
+  color: white;
+  background-color: #474E68;
+}
+
+.cuadros1 {
+  display: flex;
+  flex-direction: row;
+  font-size: 2rem;
+}
+.cuadros1 .cuadros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5%;
+  color: white;
+  background-color: #474E68;
+  border-radius: 10px;
+}
+.cuadros1 .cuadros:hover {
+  transform: scale(1.02);
+  transition: 0.4s;
+  background-color: black;
+}
+.cuadros1 .cuadros h3 {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.cuadros1 .cuadros p {
+  justify-content: center;
+  margin: 10%;
+}
+
 .banner {
   position: relative;
 }
@@ -70,55 +169,16 @@ textarea {
 .boton {
   padding: 15px;
   font-size: 16px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 15px;
   border: none;
   outline: 0px;
   background-color: #474E68;
   color: white;
-  border-radius: 3px;
-  cursor: pointer;
-  margin: 15px;
 }
 .boton:hover {
   background-color: #3c70a4;
-}
-
-h1 {
-  text-align: center;
-}
-
-main {
-  background-color: white;
-  margin: 0px;
-}
-
-footer {
-  background-color: #474E68;
-  color: white;
-  text-align: center;
-  align-self: flex-end;
-  width: 100%;
-  height: 50px;
-}
-
-body {
-  font-family: "Nunito", sans-serif;
-  background-color: white;
-}
-
-.parrafos {
-  text-align: center;
-  margin: 15px;
-}
-
-.pasos {
-  text-align: center;
-}
-
-.proyecto {
-  color: white;
-  text-align: center;
-  padding: 50px;
-  background-color: #474E68;
 }
 
 .redes-sociales {
@@ -251,5 +311,64 @@ body {
   }
   .galeria-item:nth-child(7) {
     grid-column-start: span 2;
+  }
+}
+@media (max-width: 780px) {
+  .cuadros1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .cuadros1 .cuadros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5%;
+    color: white;
+    background-color: #474E68;
+    border-radius: 10px;
+  }
+  .cuadros1 .cuadros:hover {
+    transform: scale(1.02);
+    transition: 0.4s;
+    background-color: black;
+  }
+  .cuadros1 .cuadros h3 {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+  .cuadros1 .cuadros p {
+    justify-content: center;
+    margin: 10%;
+  }
+  .parrafos {
+    text-align: center;
+    width: auto;
+    margin: 0;
+    color: white;
+    background-color: #474E68;
+    padding: 5%;
+    border-radius: 0px;
+    font-size: 1rem;
+  }
+  .parrafos1 {
+    text-align: center;
+    width: auto;
+    margin: 5%;
+    color: white;
+    background-color: #474E68;
+    padding: 50px;
+    border-radius: 10px;
+    font-size: 1rem;
+  }
+  .parrafosp {
+    text-align: center;
+    width: auto;
+    margin: 5%;
+    color: white;
+    background-color: #474E68;
+    border-radius: 10px;
+    font-size: 1rem;
   }
 }/*# sourceMappingURL=style.css.map */
